@@ -25,3 +25,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.active {
+  color: #e2e8f0; /* Light Slate */
+  font-weight: bold;
+}
+
+.active .nav-indicator {
+  width: 4rem !important; /* Ensure width expands when active */
+  background-color: #e2e8f0 !important;
+}
+
+.active .nav-text {
+  color: #e2e8f0 !important;
+}
